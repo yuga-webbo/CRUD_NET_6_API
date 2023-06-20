@@ -40,8 +40,10 @@ dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version
 
 ## To run the same using Package console :
 > add-migration initial
+
 > update-database
 
 ## To run migration for updated columns :
 > add-migration productColumnChange
+
 > update-database
